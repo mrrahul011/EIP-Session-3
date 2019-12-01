@@ -8,8 +8,6 @@
   
   
 # Model definition 
-
-# Define the model
       model = Sequential()
       model.add(SeparableConv2D(32, 3, 3, border_mode='same', input_shape=(32, 32, 3))) #I/P:32  O/P:32 RF:3
       model.add(Activation('relu'))
